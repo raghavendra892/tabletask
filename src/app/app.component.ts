@@ -62,7 +62,6 @@ stdArray : Array<Istd> = [
 onStdAdded(std:Istd){
   console.log(std)
   this.stdArray.push(std)
-  this.stdArray = [...this.stdArray, std]
 }
 
 
