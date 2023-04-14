@@ -31,9 +31,9 @@ export class StdFormComponent implements OnInit {
      
     console.log(obj)
     this.addStdInfo.emit(obj)
-    //  this.fnameval = " ";
-    //  this.lnameval = " ";
-    //  this.emailval = " ";
-    //  this.contactval = " ";
+     this.fnameval = " ";
+     this.lnameval = " ";
+     this.emailval = " ";
+     this.contactval = " ";
    }
 }
